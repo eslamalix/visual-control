@@ -15,7 +15,10 @@ Steps:
     * download bjam and place it in the root of the boost directory
     * open the visual studio 2010 command line tool and cd to boost root
     * run the 'bootstrap' command
-    * run bjam variant=debug,release threading=multi link=static
+    * run 
+{{{ 
+bjam variant=debug,release threading=multi link=static
+}}}
     * set include and library paths in the visual studio 2010 property pages
   
   # Download and compile the OpenCV 2.1 library (2.2 has a bug on win7 with web-cam!)
