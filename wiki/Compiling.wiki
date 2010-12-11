@@ -1,4 +1,4 @@
-#summary Prerequisites and compiling the projects
+#summary Compiling the project and its dependencies
 #labels Phase-Requirements,compiling,building,dependencies
 
 = Compiling the project and its dependencies =
