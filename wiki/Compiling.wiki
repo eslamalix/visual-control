@@ -1,5 +1,5 @@
 #summary Prerequisites and compiling the projects
-#labels Phase-Requirements,compiling
+#labels Phase-Requirements,compiling,building,dependencies
 
 = Compiling the project and its dependencies =
 
@@ -43,5 +43,7 @@ configure -platform win32-msvc2010 -static -debug-and- release -mp -no-qt3suppor
     * download and install the QT visual studio plugin (i am using 1.1.7)
     * configure visual studio 2010 to use the default qt version
   # (optional) Install AnkhSVN to access subversion trough Visual Studio
-  # Download the code in the trunk, set the correct include paths and libraries needed (cv210.dll, highgui210.dll, cxcore210.dll)
-  # compile and run!
+  # Download the code in the trunk, set the correct include paths and libraries needed (cv210.lib, highgui210.lib, cxcore210.lib) or debug versions (cv210d.lib, highgui210d.lib, cxcore210d.lib). Boost uses auto-linking and QT configures the project trough the vs plugin tool, so no configuration needed for those libraries. 
+  # compile
+  # place the dll files in the Release folder next to the executable (cv210.dll, highgui210.dll, cxcore210.dll, tbb.dll) or debug versions in the Debug folder (cv210d.dll, highgui210d.dll, cxcore210d.dll, tbb_debug.dll)
+  # run the executable and enjoy!
