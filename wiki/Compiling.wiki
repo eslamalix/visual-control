@@ -37,7 +37,7 @@ bjam variant=debug,release threading=multi link=static
     * cd to the Qt root directory and run configure --help. Add some changes if you like
     * make sure you have opengl enabled, use the -mp flag to use multiple cores during compilation, we build the static library variant. this is the build configure command I used:
 {{{
-configure -platform win32-msvc2010 -static -debug-and- release -mp -no-qt3support -no-webkit -qt-sql-sqlite -plugin-sql-sqlite -fast
+configure -platform win32-msvc2010 -static -debug-and-release -mp -no-qt3support -no-webkit -qt-sql-sqlite -plugin-sql-sqlite -fast
 }}}
     * when configure finishes, run nmake (this takes 1 to 2 hours)
     * download and install the QT visual studio plugin (i am using 1.1.7)
