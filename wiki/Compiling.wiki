@@ -27,7 +27,7 @@ bjam variant=debug,release threading=multi link=static
     * Download OpenCV 2.1 sources
     * Open CMake-gui and set the *source code path* to OpenCV root, and *where to build binaries* to OpenCV root/build 
     * run configure (select visual studio 2010 as environment, use native compilers)
-    * select use TBB, run configure again
+    * select with TBB, run configure again
     * search for TBB_PATH_NOT_FOUND, click on that line and enter the path manually 
     * press configure again and then click generate
     * go to the OpenCV root/build and open OpenCV.sln, inside the .sln build the debug and release versions.
