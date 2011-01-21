@@ -5,16 +5,14 @@
 
 To compile this project, you will need to setup your system. Currently we are using C++ with Visual Studio 2010. 
 
-
 = Details =
 
 Steps:
   # Install visual studio 2010
   # Download and compile the boost libraries (I am using version 1.45.0)
     * download boost sources and extract
-    * download bjam and place it in the root of the boost directory
     * open the visual studio 2010 command line tool and cd to boost root
-    * run the 'bootstrap' command
+    * run the 'bootstrap' command to build BJAM
     * run 
 {{{ 
 bjam variant=debug,release threading=multi link=static
@@ -47,3 +45,6 @@ configure -platform win32-msvc2010 -static -debug-and-release -mp -no-qt3support
   # compile
   # place the dll files in the Release folder next to the executable (cv210.dll, highgui210.dll, cxcore210.dll, tbb.dll) or debug versions in the Debug folder (cv210d.dll, highgui210d.dll, cxcore210d.dll, tbb_debug.dll)
   # run the executable and enjoy!
+
+= Video Tutorial =
+For compiling boost, you can also watch this video tutorial: [http://www.youtube.com/watch?v=5AmwIwedTCM Compiling and configuring Boost for Visual Studio 2010]
