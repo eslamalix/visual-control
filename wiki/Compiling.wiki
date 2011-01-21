@@ -18,7 +18,6 @@ Steps:
 bjam variant=debug,release threading=multi link=static
 }}}
     * set include and library paths in the visual studio 2010 property pages
-  
   # Download and compile the OpenCV 2.1 library (2.2 has a bug on win7 with web-cam!)
     * Download CMake 2.8
     * Download threading building blocks (I am using TBB 3.0 Update 4)
