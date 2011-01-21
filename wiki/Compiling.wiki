@@ -45,5 +45,8 @@ configure -platform win32-msvc2010 -static -debug-and-release -mp -no-qt3support
   # place the dll files in the Release folder next to the executable (cv210.dll, highgui210.dll, cxcore210.dll, tbb.dll) or debug versions in the Debug folder (cv210d.dll, highgui210d.dll, cxcore210d.dll, tbb_debug.dll)
   # run the executable and enjoy!
 
-= Video Tutorial =
-For compiling boost, you can also watch this video tutorial: [http://www.youtube.com/watch?v=5AmwIwedTCM Compiling and configuring Boost for Visual Studio 2010]
+= Video Tutorials =
+For compiling Boost, you can also watch this video tutorial: [http://www.youtube.com/watch?v=5AmwIwedTCM Compiling and configuring Boost for Visual Studio 2010]
+
+For compiling OpenCV, you can also watch this video tutorial:
+[http://www.youtube.com/watch?v=XeBhwbRoKvk Compiling and configuring the OpenCV library for use with Visual Studio 2010]
